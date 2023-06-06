@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container{
+    background-color:black;
+    background-size: cover;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size:30px;
+color:white;
+text-align:center;
+font-weight:600;
+}
+.image{
+    height:100px;
+    width:100px;
+    
+}
+.value{
+    color:white;
+font-size:24px;
+
+}
+.desc{
+    font-size:18px;
+    color:white;
+}
+.acc-button{
+    height:30px;
+    background-color:lightblue;
+border-radius:10px;
+cursor: pointer;
+outline:none;
+}
+.brake-button{
+     height:30px;
+    background-color:transparent;
+    padding:20px;
+border-radius:10px;
+cursor: pointer;
+outline:none;
+}
